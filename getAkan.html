@@ -9,7 +9,9 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <!--navigation section-->
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal">Akan Nameing Application</h5>
+  </div>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top  text-center" style="background-color:#2F1C6A; !important">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Akan</a>
@@ -24,47 +26,46 @@
           <li class="nav-item">
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="getAkan.html">Get Akan Name</a>
+            <a class="nav-link" href="#">Get Akan Name</a>
           </li>
         </ul>
      
       </div>
     </div>
   </nav>
-  <!--end of navigation section-->
+  <section class="pt-4 pt-md-11 pb-5">
     <div class="container">
-        <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto header">
-            <p >This is a simple web application that uses ones Date, Month and Year of birth to  determine the day of the week when someone was born.It goes a step further depending on the users gender and the day of the week bord determine their Akan i.e Ghanian Name. Follow the instructions below to get results;</p>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-5 col-lg-6 order-md-2">
+
+          <!-- Image -->
+          <img src="images/illustration-2.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate" alt="..." data-aos="fade-up" data-aos-delay="100">
+
         </div>
-          <div class="card-deck mb-3 text-center">
-            <div class="card mb-4 box-shadow">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">1</h4>
-              </div>
-              <div class="card-body">
-                <p>Provide Date of Birth</p>
-              </div>
-            </div>
-            <div class="card mb-4 box-shadow">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">2</h4>
-              </div>
-              <div class="card-body">
-                <p>Provide Genderh</p>
-              </div>
-            </div>
-            <div class="card mb-4 box-shadow">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">3</h4>
-              </div>
-              <div class="card-body">
-                <p>Submit to get your Akan Name</p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
+        <div class="col-12 col-md-7 col-lg-6 order-md-1 aos-init aos-animate" data-aos="fade-up">
+
+          <!-- Heading -->
+          <h4 class="display-4 text-center text-md-start">
+            <span class="text-theme">Akan</span> <br>
+            Naming application.
+          </h4>
+
+          <!-- Text -->
+          <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
+            A simple web application to get your Ghanian Akan name based on your birthday and gender.
+          </p>
+
+
+
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
+  <section class="pt-2 pt-md-11 pb-5">
+      <div class="container">
+        <div class="card">
             <div class="card-header">
-              Fill in the form below
+              Fill in the form below to get your Akan name
             </div>
             <div class="card-body">
                 <form  id="form">
@@ -105,67 +106,13 @@
               
             </div>
           </div>
-          <section class="mt-5 pt-5">
-              <hr/>
-              <h3 class="text-center">Ghanian Day names</h3>
-              
-            <table class="table">
-                <thead class="darkbg">
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Day of the week</th>
-                    <th scope="col">Female Name</th>
-                    <th scope="col">Male Name</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Sunday</td>
-                    <td>Akosua</td>
-                    <td>Kwasi</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Monday</td>
-                    <td>Adwoa</td>
-                    <td>Kwadwo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Teusday</td>
-                    <td>Abenaa</td>
-                    <td>Kwabena</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>Wednesday</td>
-                    <td>Akua</td>
-                    <td>Kwaku</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">5</th>
-                    <td>Thursday</td>
-                    <td>Yaa</td>
-                    <td>Yaw</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">6</th>
-                    <td>Friday</td>
-                    <td>Afua</td>
-                    <td>Kofi</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">7</th>
-                    <td>Saturday</td>
-                    <td>Ama</td>
-                    <td>Kwame</td>
-                  </tr>
-                </tbody>
-              </table>
-          </section>
-
-    </div>
+      </div>
+  </section>
+  <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+        <span class="text-muted text-center">Developed and Managed by: Victoria Wasonga Okumu</span>
+        </div>
+  </footer>
     <script src="js/scripts.js"></script>
     
     

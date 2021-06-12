@@ -1,5 +1,5 @@
 html{
-    font-family: 'Muli',sans-serif;
+    font-family:HKGroteskPro,serif;
     font-size: 16px;
     line-height: 1.5;
     color: rgb(84, 84, 84);
@@ -30,4 +30,11 @@ hr {
 }
 .demo{
     color:red;
+}
+.text-theme{
+    color:#2F1C6A;
+}
+.btn-theme{
+    background-color: #2F1C6A;
+    color: #fff;
 }
