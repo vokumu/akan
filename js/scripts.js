@@ -112,9 +112,6 @@ function getAkanName(day,gender){
     }
     return akanName;
 }
-
-
-
 function claculateBirthDay() {
     event.preventDefault();
     //getting data from form
@@ -122,7 +119,6 @@ function claculateBirthDay() {
     var date = document.getElementById("dateOfBirth").value;
     var month = document.getElementById("monthOfBirth").value;
     var year = document.getElementById("yearOfBirth").value;
-    console.log(year)
     //validation
     year=validateYear(year);
     date=validateDate(date);
