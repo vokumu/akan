@@ -114,6 +114,7 @@ function getAkanName(day,gender){
 }
 
 
+
 function claculateBirthDay() {
     event.preventDefault();
     //getting data from form
@@ -129,5 +130,8 @@ function claculateBirthDay() {
     gender=validateGender(gender);
     var day=getDayofWeek(date,month,year);
     var name=getAkanName(day,gender);
-
+    if (name !=null){
+        alert("Your akan name is "+name);
+        window.location.reload();
+    }
 }
