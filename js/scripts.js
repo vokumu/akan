@@ -40,3 +40,11 @@ function validateYear(year) {
         return year;
     }
 }
+function validateGender(gender){
+    if(gender == ""){
+        document.getElementById("invalidGender").innerHTML = "Gender cannot be empty";
+    }
+    else{
+        return gender;
+    }
+}
