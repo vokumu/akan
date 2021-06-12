@@ -113,6 +113,7 @@ function getAkanName(day,gender){
     return akanName;
 }
 
+
 function claculateBirthDay() {
     event.preventDefault();
     //getting data from form
@@ -126,4 +127,7 @@ function claculateBirthDay() {
     date=validateDate(date);
     month=validateMonth(month);
     gender=validateGender(gender);
+    var day=getDayofWeek(date,month,year);
+    var name=getAkanName(day,gender);
+
 }
