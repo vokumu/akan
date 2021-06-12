@@ -48,3 +48,12 @@ function validateGender(gender){
         return gender;
     }
 }
+function getDayofWeek(date,month,year){   
+    var DD=parseInt(date);
+    var MM=parseInt(month);
+    var CC=parseInt(year.slice(0,2))
+    YY=parseInt(year.slice(2,4))
+    var day_of_the_week=((((CC/4)-2*CC-1)+((5*YY/4)) + ((26*(MM+1)/10)) + DD) % 7)
+    day_of_the_week=day_of_the_week.toFixed(0)
+    return day_of_the_week
+}
