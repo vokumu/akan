@@ -9,7 +9,7 @@ This is a simple web application that uses ones Date, Month and Year of birth to
 ## Setup Instructions  
 To start using this project use the following commands:
 
-- `git clone...`
+- `git clone https://github.com/vokumu/akan.git`
 - `cd hello-world`
 - `atom .`
 - `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
