@@ -26,3 +26,17 @@ function validateMonth(month) {
         return month
     }
 }
+function validateYear(year) {
+    if(year == ""){
+        document.getElementById("invalid_year").innerHTML = "Year cannot be empty";
+    }
+    else if(isNaN(year)){
+        document.getElementById("invalid_month").innerHTML = "Year has to be a number";
+    }
+    else if (year.length != 4) {
+        document.getElementById("invalid_year").innerHTML = "Input not a valid Year";
+    }
+    else {
+        return year;
+    }
+}
