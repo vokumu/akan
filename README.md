@@ -1,7 +1,7 @@
 # Akan Naming Application 
 ---
 ## Project Description
-This is a simple web application that uses ones Date, Month and Year of birth to determine the day of the week when someone was born.It goes a step further depending on the users gender and the day of the week bord determine their Akan i.e Ghanian Name. Follow the instructions below to get results;
+This is a simple web application that uses a user's Date, Month and Year of birth to determine the day of the week when someone was born.It goes a step further depending on the users gender and the day of the week bord determine their Akan i.e Ghanian Name. 
 
 ## Author Information
 [Victoria Okumu](https://github.com/vokumu)
