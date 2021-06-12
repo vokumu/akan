@@ -12,3 +12,17 @@ function validateDate(date) {
         return date
     }
 }
+function validateMonth(month) {
+    if(month == ""){
+        document.getElementById("invalid_month").innerHTML = "Month cannot be empty";
+    }
+    else if(isNaN(month)){
+        document.getElementById("invalid_month").innerHTML = "Month has to be a number";
+    }
+    else if (month <=0 || month > 12) {
+        document.getElementById("invalid_month").innerHTML = "Input not a valid Month";
+
+    } else {
+        return month
+    }
+}
