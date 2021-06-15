@@ -3,6 +3,7 @@
 ## Project Description
 This is a simple web application that uses ones Date, Month and Year of birth to determine the day of the week when someone was born.It goes a step further depending on the users gender and the day of the week bord determine their Akan i.e Ghanian Name. 
 
+
 ## Author Information
 [Victoria Okumu](https://github.com/vokumu)
 
@@ -14,7 +15,7 @@ To start using this project use the following commands:
 - `atom .`
 - `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
 
-## View My Portfolio
+## View Site
 [View site](https://vokumu.github.io/akan/)
 
 ## Technologies Used 
