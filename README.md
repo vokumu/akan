@@ -14,7 +14,7 @@ To start using this project use the following commands:
 - `atom .`
 - `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
 
-## View My Portfolio
+## View Site
 [View site](https://vokumu.github.io/akan/)
 
 ## Technologies Used 
